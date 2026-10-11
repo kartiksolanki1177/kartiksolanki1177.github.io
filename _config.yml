@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Kartik Solanki"
+title                    : ".."
 title_separator          : "-"
-name                     : &name "Kartik Solanki"
-description              : &description "Physics graduate student at IIT Jammu"   # Update this with a general description of your site, this is the default if not overridden by a page
+name                     : &name ".."
+description              : &description "juu"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://kartiksolanki1177.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -24,11 +24,11 @@ repository               : "kartiksolanki1177/kartiksolanki1177.github.io"
 author:
   # Biographic information
   avatar           : "kartiksolanki.jpg"
-  name             : "Kartik Solanki"
+  name             : "ii"
   pronouns         : # example: "she/her"  
-  bio              : "Battery researcher"
-  location         : "Jammu"
-  employer         : "Indian Institute of Technology Jammu"
+  bio              : "jjk"
+  location         : "jj"
+  employer         : "hh"
   uri              : # URL
   email            : "kartiksolanki1177@gmail.com" 
 
