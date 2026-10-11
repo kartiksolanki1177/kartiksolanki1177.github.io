@@ -23,7 +23,7 @@ repository               : "kartiksolanki1177/kartiksolanki1177.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "kartiksolanki.jpg"
+  avatar           : "kartiksolanki.jpg.jpg"
   name             : "Kartik Solanki"
   pronouns         : # example: "she/her"  
   bio              : "Battery researcher"
