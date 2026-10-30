@@ -40,20 +40,55 @@
    .author__avatar img {
      border-radius: 0;
    }
-@media (max-width: 1024px) {
-  .author__urls-wrapper button {
-    display: none;
+@media (max-width: 924px) {
+  /* photo on the left with name + bio under it, links on the right */
+  .sidebar div[itemtype="http://schema.org/Person"] {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    grid-template-areas:
+      "photo   links"
+      "content links";
+    column-gap: 20px;
+    row-gap: 10px;
+    align-items: start;
   }
-  .author__urls {
-    display: block !important;
-    position: relative;
-    background: transparent;
-    border: none;
-    box-shadow: none;
+  .sidebar div.author__avatar {
+    grid-area: photo;
+    display: block;
+    width: auto;
+  }
+  .sidebar img.author__avatar {
+    display: block;
+    width: 150px;
+    max-width: 150px;
+    height: auto;
+  }
+  .sidebar .author__content {
+    grid-area: content;
+    display: block;
     padding: 0;
   }
-  .author__urls:before,
-  .author__urls:after {
+  .sidebar .author__urls-wrapper {
+    grid-area: links;
+    display: block;
+    align-self: center;
+  }
+  .sidebar .author__urls-wrapper button {
+    display: none;
+  }
+  .sidebar .author__urls {
+    display: block !important;
+    position: static;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+    z-index: auto;
+  }
+  .sidebar .author__urls:before,
+  .sidebar .author__urls:after {
     display: none;
   }
 }
+
